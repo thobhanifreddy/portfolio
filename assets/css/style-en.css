@@ -597,7 +597,11 @@ textarea.error {
     width: 50%;
   }
 }
-
+@media (max-width: 725px) {
+  .calendar {
+    display: none !important;
+  }
+}
 @media screen and (max-width: 640px) {
   .section-title {
     font-size: 2em;
