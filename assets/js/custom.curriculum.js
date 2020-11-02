@@ -14,7 +14,7 @@ jQuery( document ).ready( function( $ ){
 
 	// Making navigation sticky on scroll
 
-	$( '#nav' ).sticky( { topSpacing:10 } );
+	$( '#nav' ).sticky( { topSpacing:0 } );
 
 	$( '#nav ul' ).onePageNav( { scrollSpeed: 200 } );
 

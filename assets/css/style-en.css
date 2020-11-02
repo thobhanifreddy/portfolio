@@ -258,7 +258,7 @@ textarea.error {
   color: #f57f17;
 }
 
-.top-decorations {
+/* .top-decorations {
   position: fixed;
   z-index: 100;
   top: 0;
@@ -267,7 +267,7 @@ textarea.error {
   width: 100%;
   height: 10px;
   background: #5b9bbc url(../img/top-decorations.png) repeat-x top center;
-}
+} */
 
 /* 2.1 Navigation */
 
@@ -348,6 +348,16 @@ textarea.error {
 
 /* 3. Profile */
 
+.githubContiner {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#githubCalender {
+  width: 75%
+}
 #profile .line {
   background-color: #f57f17;
 }
@@ -598,8 +608,8 @@ textarea.error {
   }
 }
 @media (max-width: 725px) {
-  .calendar {
-    display: none !important;
+  #githubCalender {
+    width: 90%
   }
 }
 @media screen and (max-width: 640px) {
